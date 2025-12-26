@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #1b3c1b 0%, #2d5a2d 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #3a5c3a;
+    padding: 25px;
+    width: 370px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(120, 200, 80, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #98fb98;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #2d5a2d;
+    background: #2d5a2d;
+    color: white;
+}
+
+input::placeholder {
+    color: #b8d8b8;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2d5a2d;
+    color: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border-left: 4px solid #98fb98;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #b8d8b8;
+}
+
+.todo-buttons button {
+    margin-left: 5px;
+}
+
+#addBtn {
+    background: linear-gradient(135deg, #4caf50 0%, #8bc34a 100%);
+    color: white;
+}
+
+.complete-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.delete-btn {
+    background: #ff5252;
+    color: white;
+}
+
+.clear-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #f44336 0%, #ff5252 100%);
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+.stats {
+    margin-top: 15px;
+    font-size: 14px;
+    background: #2d5a2d;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+#emptyMessage {
+    text-align: center;
+    color: #b8d8b8;
+    font-size: 14px;
+    padding: 20px;
+    background: #2d5a2d;
+    border-radius: 8px;
+    margin: 10px 0;
+}
